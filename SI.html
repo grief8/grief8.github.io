@@ -72,8 +72,8 @@
         //颗粒原型
         Particle.prototype.render = function() {
 
-            this.accX = (this.dest.x - this.x)/200;
-            this.accY = (this.dest.y - this.y)/200;
+            this.accX = (this.dest.x - this.x)/50;
+            this.accY = (this.dest.y - this.y)/50;
             this.vx += this.accX;
             this.vy += this.accY;
             this.vx *= this.friction;
